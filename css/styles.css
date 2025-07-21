@@ -16,3 +16,29 @@ body {
 ul {
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.btn-order {
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+}
+
+.btn-order:hover {
+  color: var(--color-secondary-dark);
+  background-color: transparent;
+}
+
+.link {
+  color: var(--color-primary-light);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
