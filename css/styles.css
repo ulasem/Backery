@@ -1,0 +1,18 @@
+:root {
+  --color-primary-light: #faf4ea;
+  --color-primary-dark: #31261a;
+  --color-brand: #819b57;
+  --color-secondary-dark: #465929;
+  --color-secondary-brown: #a18268;
+  --color-secondary-light: #cfcfbc;
+}
+
+/* Base */
+
+body {
+  color: var(--color-primary-dark);
+}
+
+ul {
+  list-style-type: none;
+}
