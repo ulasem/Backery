@@ -1,0 +1,27 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/utils';
+@import './utils/text-brand';
+@import './base';
+
+@import './components/buttons';
+@import './components/pagination';
+@import './components/links';
+@import './components/modal';
+@import './components/forms';
+@import './components/carousel';
+@import './components/chef-card';
+@import './components/format-card';
+@import './components/input';
+@import './components/mobile-menu';
+
+@import './layouts/section';
+@import './layouts/container';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/advantages-section';
+@import './layouts/traditions-section';
+@import './layouts/chefs-section';
+@import './layouts/format-section';
+@import './layouts/contacts-section';
+@import './layouts/footer';
