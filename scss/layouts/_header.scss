@@ -16,21 +16,23 @@
   }
 
   &__nav {
-    flex-grow: 1;
     display: flex;
     align-items: center;
+    flex-grow: 1;
     gap: 40px;
   }
 
-  &__main {
+  &__menu {
     display: none;
 
-    @media screen and (min-width: $bp-desktop) {
-      margin: 0;
-      padding: 0;
+    @media screen and (min-width: $bp-tablet) {
       display: flex;
-      flex-grow: 1;
       gap: 64px;
+      flex-grow: 1;
+      justify-content: flex-end;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
       justify-content: center;
     }
   }
@@ -43,15 +45,15 @@
     }
   }
 
-  &__burger-button {
+  &__burger {
     width: 24px;
     height: 24px;
     padding: 0;
     background-color: transparent;
     border: none;
-    color: var(--color-primary-light);
+    fill: var(--color-primary-light);
 
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-tablet) {
       display: none;
     }
   }

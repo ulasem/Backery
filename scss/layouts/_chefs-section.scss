@@ -4,7 +4,7 @@
     margin: 0 auto 24px;
 
     @media screen and (min-width: $bp-desktop) {
-      margin: 80px;
+      margin-bottom: 80px;
     }
 
     &::before,
@@ -15,35 +15,36 @@
       width: 352px;
       border: 2px solid var(--color-brand-light);
       content: '';
+
       @media screen and (min-width: $bp-desktop) {
         display: block;
       }
     }
 
     &::before {
-      left: -10px;
+      left: 0;
     }
 
     &::after {
-      right: -10px;
+      right: 0;
     }
   }
 
   &__list {
     display: flex;
-    gap: 20px;
-    padding: 0;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    gap: 30px;
+
     @media screen and (min-width: $bp-tablet) {
-      gap: 40px 30px;
       flex-direction: row;
+      gap: 40px 30px;
     }
   }
 
   &__item {
     @media screen and (min-width: $bp-tablet) {
-      flex-basis: calc(100% - 30px / 2);
+      flex-basis: calc((100% - 30px) / 2);
     }
   }
 }

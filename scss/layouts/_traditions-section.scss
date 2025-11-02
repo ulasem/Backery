@@ -7,9 +7,9 @@
 
   &__container {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 40px;
-    align-items: flex-start;
   }
 
   &__content {
@@ -22,7 +22,7 @@
 
   &__text {
     &--limited {
-      max-width: 330px;
+      max-width: 340px;
     }
   }
 
